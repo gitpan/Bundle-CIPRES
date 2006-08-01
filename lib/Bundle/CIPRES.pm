@@ -6,7 +6,7 @@ Bundle::CIPRES - CPAN Bundle for CIPRES prerequisites
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
@@ -17,6 +17,8 @@ cpan Bundle::CIPRES
 Class::Inspector
 
 Log::Log4perl
+
+Log::Dispatch
 
 Scalar::Util
 
