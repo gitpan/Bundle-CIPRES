@@ -6,7 +6,7 @@ Bundle::CIPRES - CPAN Bundle for CIPRES prerequisites
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 =head1 SYNOPSIS
 
@@ -18,11 +18,11 @@ Class::Inspector
 
 Log::Log4perl
 
-Log::Dispatch
-
 Scalar::Util
 
 Exception::Class
+
+Exception::Class::TCF
 
 Test::More
 
@@ -30,13 +30,15 @@ Math::Random
 
 IO::String
 
-XML::Simple
-
 SVG
 
-Storable
+Alien::wxWidgets
 
-Switch
+Wx
+
+Wx::Perl::Packager
+
+Wx::Perl::VirtualTreeCtrl
 
 =head1 AUTHOR
 
